@@ -20,6 +20,7 @@ a{
     background: #FC8F8F;
     float: left;
     margin: 50px;
+    
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -71,7 +72,7 @@ a{
     height: 100px;
     background: #FC8F8F;
     float: right;
-    margin: 15px;
+    margin: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -86,7 +87,7 @@ a{
     height: 100px;
     background: #FC8F8F;
     float: right;
-    margin: 15px;
+    margin: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -101,7 +102,7 @@ a{
     height: 100px;
     background: #FC8F8F;
     float: right;
-    margin: 15px;
+    margin: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -116,7 +117,7 @@ a{
     height: 100px;
     background: #FC8F8F;
     float: right;
-    margin: 15px;
+    margin: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -135,7 +136,7 @@ a{
     height: 200px;
     background: #FC8F8F;
     float: left;
-    margin: 15px;
+    margin: 50px;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -150,7 +151,8 @@ a{
     height: 200px;
     background: #FC8F8F;
     float: left;
-    margin: 15px;
+    margin-left: 15px;
+    margin: 50px;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -165,8 +167,9 @@ a{
     width: 200px;
     height: 200px;
     background: #FC8F8F;
+   
     float: right;
-    margin: 15px;
+    margin: 50px;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -183,7 +186,8 @@ a{
     height: 200px;
     background: #FC8F8F;
     float: right;
-    margin: 15px;
+    margin: 50px;
+    margin-right: 15px;
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
