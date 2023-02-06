@@ -1,4 +1,210 @@
-/**{
+.blok1 {
+    background: #ffffff;
+}
+.wrap {}
+.square1{
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+.square2{
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    
+}
+.clear {
+    clear: both;
+    background: #858585;   
+    padding-top: 50px;
+}
+.blok2 {
+    background: #ffffff;
+}
+.square3{
+
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: left;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF
+}
+.square4 {
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+
+    margin-left: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.square5 {
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+        font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.square6 {
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.square7 {
+    width: 100px;
+    height: 100px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.clear2 {
+    clear: both;
+    background: #868686;   
+    padding-top: 50px;
+}
+.blok3{
+    background: #fffefe;
+}
+.square8 {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: left;
+    margin: 50px;
+    margin-right: 15px;
+    
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+}
+
+.square9 {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: left;
+   
+    margin-right: 15px;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    
+}
+
+.square10 {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    margin-right: 15px;
+    float: right;
+    margin: 50px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;
+    
+    
+}
+
+.square11 {
+    width: 200px;
+    height: 200px;
+    background: #FC8F8F;
+    float: right;
+    margin: 50px;
+    margin-right: 15px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #FFFFFF;  
+}
+
+.clear3 {
+    clear: both; 
+    background: #868686;   
+    padding-top: 50px;
+}
+
+
+    /**{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
@@ -9,9 +215,22 @@ ol,ul{
 a{
     text-decoration: none;
 }  */
+
+    /*.contr{
+    background: slategray;
+    width: 1100px;
+    height: 800px;
+}
+
+.block{
+    
+}
+.block2{
+    
+}
 .wrap {
     width: 70%;
-    background: #C4C4C4;
+   
 }
 
 .square1 {
@@ -20,7 +239,6 @@ a{
     background: #FC8F8F;
     float: left;
     margin: 50px;
-    
     text-align: center;
     font-family: 'Roboto';
     font-style: normal;
@@ -73,6 +291,7 @@ a{
     background: #FC8F8F;
     float: right;
     margin: 50px;
+    margin-left: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -88,6 +307,7 @@ a{
     background: #FC8F8F;
     float: right;
     margin: 50px;
+    margin-left: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -103,6 +323,7 @@ a{
     background: #FC8F8F;
     float: right;
     margin: 50px;
+    margin-left: 15px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -118,6 +339,8 @@ a{
     background: #FC8F8F;
     float: right;
     margin: 50px;
+    margin-left: 15px;
+    margin-top: 50px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -202,4 +425,4 @@ a{
 .clear3 {
     clear: both;
     
-}
+}  */
