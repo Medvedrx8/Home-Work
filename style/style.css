@@ -1,4 +1,158 @@
-*{
+.container1 {
+    max-width: 1110px;
+    margin: 0 auto;
+    background: rgba(255, 0, 0, 0.1);
+    align-items: center;
+
+
+}
+
+.menu {
+    pposition: absolute;
+    width: 611px;
+    height: 16px;
+    left: 399px;
+    top: 79px;
+
+}
+
+.menu-item1 {
+    position: absolute;
+    width: 84px;
+    height: 16px;
+    left: 399px;
+    top: 79px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+
+.menu-item2 {
+    position: absolute;
+    width: 100px;
+    height: 16px;
+    left: 525px;
+    top: 79px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+   
+
+}
+
+.menu-item3 {
+    position: absolute;
+    width: 74px;
+    height: 16px;
+    left: 667px;
+    top: 79px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.menu-item4 {
+    position: absolute;
+    width: 86px;
+    height: 16px;
+    left: 783px;
+    top: 79px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+}
+
+.menu-item5 {
+    position: absolute;
+    width: 99px;
+    height: 16px;
+    left: 911px;
+    top: 79px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+
+    color: #000000;
+
+}
+
+.head-section {
+    position: absolute;
+    width: 614.24px;
+    height: 72.3px;
+    left: 400px;
+    top: 308px;
+}
+.design{
+    position: #;
+width: 541px;
+height: 45px;
+left: 399px;
+top: 257px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+
+color: #000000;
+}
+.fish{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+
+color: #727272;
+position: #;
+width: 540px;
+height: 67px;
+left: 400px;
+top: 362px;
+}
+.container2{
+  
+
+}
+
+.btn {
+    position: #;
+width: 225px;
+height: 65px;
+left: 399px;
+top: 494px;
+
+}
+
+
+.
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
@@ -8,4 +162,4 @@ ol,ul{
 }
 a{
     text-decoration: none;
-}
+} *
