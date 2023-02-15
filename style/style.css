@@ -139,7 +139,7 @@
     top: 362px;
 }
 .fish2{
-    position: absolute;
+    
 width: 540px;
 height: 67px;
 left: 690px;
@@ -206,7 +206,12 @@ left: 690px;
 top: 1409px;
 }
 .how i work{
-    
+    position: absolute;
+width: 540px;
+height: 147px;
+left: 690px;
+top: 1409px;
+
 
 }
 .video{
@@ -218,6 +223,15 @@ width: 1110px;
 height: 600px;
 left: 405px;
 top: 1613px;
+display: inline-block;
+}
+.food{
+   
+width: 1110px;
+height: 600px;
+left: 405px;
+top: 1613px;
+
 }
 .container6{
     position: absolute;
