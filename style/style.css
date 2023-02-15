@@ -42,9 +42,9 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0;
     color: #000000;
-   
+
 
 }
 
@@ -107,50 +107,160 @@
     left: 400px;
     top: 308px;
 }
-.design{
+
+.design {
     position: #;
-width: 541px;
-height: 45px;
-left: 399px;
-top: 257px;
+    width: 541px; 
+    height: 45px;
+    left: 399px;
+    top: 257px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+
+    color: #000000;
+}
+
+.fish {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+    position: #;
+    width: 540px;
+    height: 67px;
+    left: 400px;
+    top: 362px;
+}
+.fish2{
+    position: absolute;
+width: 540px;
+height: 67px;
+left: 690px;
+top: 1489px;
+
+/* p */
 
 font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 79px;
-
-color: #000000;
-}
-.fish{
-    font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 26px;
+text-align: center;
 
 color: #727272;
-position: #;
-width: 540px;
-height: 67px;
-left: 400px;
-top: 362px;
-}
-.container2{
-  
 
 }
+.container2 {}
 
 .btn {
     position: #;
-width: 225px;
-height: 65px;
-left: 399px;
-top: 494px;
+    width: 225px;
+    height: 65px;
+    left: 399px;
+    top: 494px;
 
 }
+.container3{
+    left: 690px;
+    right: 690px;
+   
+}
+.about-me {
+    position: absolute;
+    text-align: center;
+    width: 403px;
+    height: 30px;
+    left: 758px;
+    top: 812px;
+}
+.projects{
+    position: absolute;
+width: 1920px;
+height: 250px;
+left: 0px;
+top: 1059px;
+background: #34547A;
+}
+.projects-item{
+width: #;
+height: 100px;
+padding: 100px;
+padding left: 409px;
+position: absolute;
+left: 409px;
+right: 429px;
+}
+.container5{
+    position: absolute;
+    text-align: center;
+width: 540px;
+height: 147px;
+left: 690px;
+top: 1409px;
+}
+.how i work{
+    
 
+}
+.video{
 
+}
+.video-pg{
+    position: absolute;
+width: 1110px;
+height: 600px;
+left: 405px;
+top: 1613px;
+}
+.container6{
+    position: absolute;
+width: 1920px;
+height: 151px;
+left: 0px;
+top: 2313px;
+background: #34547A;
+}
+.finish1{
+    osition: absolute;
+width: 130px;
+height: 19px;
+left: 406px;
+top: 2363px;
+
+/* h3 */
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+
+color: #FFFFFF;
+
+}
+.finish2{
+    position: absolute;
+width: 193px;
+height: 12px;
+left: 406px;
+top: 2402px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+
+color: #FFFFFF;
+
+}
 .
 /* *{
     margin: 0;
