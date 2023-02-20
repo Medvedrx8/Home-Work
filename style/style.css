@@ -1,3 +1,7 @@
+.li{
+    text-decoration: none;
+}
+
 .container1 {
     max-width: 1110px;
     margin: 0 auto;
@@ -6,16 +10,54 @@
 }
 
 .menu {
-    pposition: absolute;
-    width: 611px;
+    display: inline-block;
+    width: 0 auto;
+    
     height: 16px;
     left: 399px;
     top: 79px;
+    margin: 0 auto;
+}
+.menu a:hover::after{
+    width: 100%;
+}
+.read:hover::before{
+    width: 100%;
+}
+.read::before{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 0;
+    background: #000000;
+    top: -3px;
+    left: 0;
+    transition: 0.5s;
+}
+
+.menu a{
+    font-size: 18px;
+    color: #000000;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color: red;
+}
+.menu-item1.active::after{
+content:'' ;
+position: absolute;
+height: auto;
+width: 100%;
+background: #000000;
+bottom: -3px;
+left: 0;
 }
 
 .menu-item1 {
-    position: absolute;
+    display: inline-block;
     width: 84px;
+    padding: 45px;
+    margin: 0 42px;
     height: 16px;
     left: 399px;
     top: 79px;
@@ -25,14 +67,17 @@
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.1em;
+    
+
 }
 
 .menu-item2 {
-    position: absolute;
+    display: inline-block;
     width: 100px;
-    height: 16px;
-    left: 525px;
-    top: 79px;
+height: 16px;
+left: 525px;
+top: 79px;
+padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -43,9 +88,10 @@
 }
 
 .menu-item3 {
-    position: absolute;
+    display: inline-block;
     width: 74px;
     height: 16px;
+    padding: 45px;
     left: 667px;
     top: 79px;
     font-family: 'Roboto';
@@ -58,9 +104,11 @@
 }
 
 .menu-item4 {
-    position: absolute;
+    position: absole;
     width: 86px;
     height: 16px;
+    padding: 45px;
+    display: inline-block;
     left: 783px;
     top: 79px;
     font-family: 'Roboto';
@@ -73,10 +121,12 @@
 }
 
 .menu-item5 {
-    position: absolute;
+    position: absolu;
     width: 99px;
+    display: inline-block;
     height: 16px;
     left: 911px;
+    padding: 45px;
     top: 79px;
     font-family: 'Roboto';
     font-style: normal;
@@ -88,7 +138,7 @@
 }
 
 .head-section {
-    position: absolute;
+    position:absolute;
     width: 614.24px;
     height: 72.3px;
     left: 400px;
@@ -96,7 +146,7 @@
 }
 
 .design {
-    position: #;
+    position: "";
     width: 541px;
     height: 45px;
     left: 399px;
@@ -107,6 +157,7 @@
     font-size: 48px;
     line-height: 79px;
     color: #000000;
+    
 
 }
 
@@ -117,7 +168,7 @@
     font-size: 16px;
     line-height: 26px;
     color: #727272;
-    position: #;
+    position: "";
     width: 540px;
     height: 67px;
     left: 400px;
@@ -145,6 +196,7 @@
     height: 65px;
     left: 399px;
     top: 494px;
+    padding: 0 auto;
     background: #34547A;
     text-align: center;
     margin-bottom: 15px;
@@ -153,13 +205,13 @@
 .read {
     font-family: 'Roboto';
     font-style: normal;
-
+padding-top: 25px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
-
+display: inline-block;
     color: #FFFFFF;
 
 }
