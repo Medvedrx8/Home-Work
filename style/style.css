@@ -1,11 +1,84 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box ;
+.container{
+    background-image: url("../images/yagoda.png");
+    width: 1280px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    align-items: norma;
+    justify-content: start;
+    font-size: 25px;
+    left: 55px;
+    top: 125px;
+    font-family: 'Cormorant';
+    font-style: norma;
+    
+
 }
-ol,ul{
-    list-style: none;
+
+.a{
+  
+    width: 128px;
+    height: 27px;
+    left: 97px;
+    top: 268px;
+    display: block;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+   
+    
 }
-a{
-    text-decoration: none;
+.menu-item{
+    width: 200px;
+    height: 45px;
+    left: 61px;
+    top: 260px;
+    background: #FF8126;
+    border-radius: 5px;
+    margin-left: 50px;
+    display: block;
+    padding-left: 36px;
+    padding-top: 8px;
+
 }
+
+
+
+/* .container{
+    width: 1280px;
+    height: 500px;
+}
+.cartin{
+width: 1280px;
+height: 500px;
+}
+.support{
+    width: 570px;
+    background: fixed;
+    height: 60px;
+    left: 55px;
+    top: 125px;
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px; 
+    color: #1F1F1F;  
+}
+.discover{
+   
+    width: 570px;
+    height: 30px;
+    left: 55px;
+    top: 190px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1F1F1F;  
+} */
