@@ -1,56 +1,21 @@
-.li{
-    text-decoration: none;
-}
-
 .container1 {
     max-width: 1110px;
     margin: 0 auto;
-    background: rgba(255, 0, 0, 0.1);
+    display: inline-block;
+    height: 36px;
+    padding: 100px 220px;
     align-items: center;
+    padding-top: 0;
+
 }
 
 .menu {
     display: inline-block;
     width: 0 auto;
-    
-    height: 16px;
-    left: 399px;
-    top: 79px;
-    margin: 0 auto;
-}
-.menu a:hover::after{
-    width: 100%;
-}
-.read:hover::before{
-    width: 100%;
-}
-.read::before{
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 0;
-    background: #000000;
-    top: -3px;
-    left: 0;
-    transition: 0.5s;
-}
+    height: 36px;
+   
 
-.menu a{
-    font-size: 18px;
-    color: #000000;
-    text-transform: uppercase;
-}
-.menu a:hover{
-    color: red;
-}
-.menu-item1.active::after{
-content:'' ;
-position: absolute;
-height: auto;
-width: 100%;
-background: #000000;
-bottom: -3px;
-left: 0;
+
 }
 
 .menu-item1 {
@@ -64,27 +29,26 @@ left: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    
-
 }
 
 .menu-item2 {
     display: inline-block;
     width: 100px;
-height: 16px;
-left: 525px;
-top: 79px;
-padding: 45px;
+    height: 16px;
+    left: 525px;
+    top: 79px;
+    padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     letter-spacing: 0;
     color: #000000;
+    text-align: center;
 }
 
 .menu-item3 {
@@ -97,14 +61,14 @@ padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000000;
 }
 
 .menu-item4 {
-    position: absole;
+   
     width: 86px;
     height: 16px;
     padding: 45px;
@@ -114,14 +78,14 @@ padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000000;
 }
 
 .menu-item5 {
-    position: absolu;
+   
     width: 99px;
     display: inline-block;
     height: 16px;
@@ -131,48 +95,51 @@ padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     letter-spacing: 0.1em;
     color: #000000;
 }
 
 .head-section {
-    position:absolute;
+
     width: 614.24px;
-    height: 72.3px;
+    display: inline-block;
     left: 400px;
     top: 308px;
+    padding: 150px;
 }
 
 .design {
-    position: "";
-    width: 541px;
-    height: 45px;
+    
+    width: px;
+    margin-bottom: 50px;
     left: 399px;
     top: 257px;
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 00;
     font-size: 48px;
     line-height: 79px;
     color: #000000;
-    
-
+    margin-top: 0px;
+  
 }
 
 .fish {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
+    text-align: center;
     color: #727272;
-    position: "";
     width: 540px;
+    margin-top: 0px;
     height: 67px;
     left: 400px;
     top: 362px;
+    display: inline-block;
 }
 
 .fish2 {
@@ -183,13 +150,18 @@ padding: 45px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     text-align: center;
     color: #727272;
+    display: inline-block;
 }
 
-.container2 {}
+.container2 {
+    width: 540px;
+    height: 302px;
+    padding: 100px 190px;
+}
 
 .btn {
     width: 225px;
@@ -200,44 +172,65 @@ padding: 45px;
     background: #34547A;
     text-align: center;
     margin-bottom: 15px;
+    display: inline-block;
+    margin-top: 71px;
 }
 
 .read {
     font-family: 'Roboto';
     font-style: normal;
-padding-top: 25px;
+    padding-top: 25px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 21px;
     text-align: center;
     letter-spacing: 0.1em;
-display: inline-block;
-    color: #FFFFFF;
+    display: block;
+    text-transform: uppercase;
 
+    color: #FFFFFF;
+    
 }
 
 .container3 {
     left: 690px;
     right: 690px;
-    background: ;
+    text-align: center;
+    background: #;
+    
+    display: inline-block;
+    
 }
 
 .about-me {
-    position: absolute;
     text-align: center;
-    width: 403px;
-    height: 30px;
+    width:0;
+   
     left: 758px;
+    padding: 100px 600px 100px 690px;
     top: 812px;
+    
+   
+    
 }
-
+.img-right{
+    padding-right: 59px;
+    text-align: center;
+}
+.container4{
+    text-align: center;
+    width: 1920px;
+    
+   
+}
 .projects {
-    position: absolute;
+
     width: 1920px;
     height: 250px;
     left: 0px;
     top: 1059px;
     background: #34547A;
+    display: inline-block;
 }
 
 .projects-item {
@@ -245,26 +238,29 @@ display: inline-block;
     height: 100px;
     padding: 100px;
     padding left: 409px;
-    position: absolute;
+    display: inline-block;
     left: 409px;
     right: 429px;
 }
 
 .container5 {
-    position: absolute;
+
     text-align: center;
     width: 540px;
-    height: 147px;
+    height: 0;
     left: 690px;
     top: 1409px;
+    display: inline-block;
+    padding: 100px 690px 75px 690px;
 }
 
 .how i work {
-    position: absolute;
+    display: inline-block;
     width: 540px;
     height: 147px;
     left: 690px;
     top: 1409px;
+    text-align: center;
 }
 
 .video {
@@ -272,10 +268,13 @@ display: inline-block;
     height: 600px;
     left: 405px;
     top: 1613px;
+    display: inline-block;
+    text-align: center;
+    padding: 50px 405px 100px 405px;
 }
 
 .video-pg {
-    position: absolute;
+
     width: 1110px;
     height: 600px;
     left: 405px;
@@ -284,7 +283,7 @@ display: inline-block;
 }
 
 .food {
-
+    display: inline-block;
     width: 1110px;
     height: 600px;
     left: 405px;
@@ -292,16 +291,17 @@ display: inline-block;
 }
 
 .container6 {
-    position: absolute;
+    display: inline-block;
     width: 1920px;
     height: 151px;
     left: 0px;
     top: 2313px;
     background: #34547A;
+    padding: 50px 406px 20px 400px;
 }
 
 .finish1 {
-    osition: absolute;
+   
     width: 130px;
     height: 19px;
     left: 406px;
@@ -312,10 +312,11 @@ display: inline-block;
     font-size: 21px;
     line-height: 25px;
     color: #FFFFFF;
+
 }
 
 .finish2 {
-    position: absolute;
+    display: inline-block;
     width: 193px;
     height: 12px;
     left: 406px;
@@ -327,21 +328,26 @@ display: inline-block;
     line-height: 21px;
     color: #FFFFFF;
 }
-.him2{
+
+.him2 {
     color: #FFFFFF;
     font-family: 'Roboto';
     font-style: normal;
-  
+
 }
-.
-/* *{
+
+. * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
+
 }
-ol,ul{
+
+ol,
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
-} *
+}
