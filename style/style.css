@@ -1,4 +1,20 @@
-.container{
+* {
+    margin: #;
+    padding: 0;
+    box-sizing: border-box;
+color: #000;
+}
+
+.ol,
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
     background-image: url("../images/yagoda.png");
     width: 1280px;
     height: 500px;
@@ -12,15 +28,17 @@
     top: 125px;
     font-family: 'Cormorant';
     font-style: norma;
-    
+
 
 }
 
-.a{
-  
+.a {
+
     width: 128px;
     height: 27px;
     left: 97px;
+    color: black;
+    text-transform: uppercase;
     top: 268px;
     display: block;
     font-family: 'Poppins';
@@ -29,20 +47,20 @@
     font-size: 18px;
     line-height: 27px;
     text-align: center;
-   
-    
+
+
 }
-.menu-item{
-    width: 200px;
+
+.menu-item {
+    width: #;
     height: 45px;
     left: 61px;
     top: 260px;
     background: #FF8126;
     border-radius: 5px;
     margin-left: 50px;
-    display: block;
-    padding-left: 36px;
-    padding-top: 8px;
+    display: inline-block;
+    padding: 8px 36px;
 
 }
 
